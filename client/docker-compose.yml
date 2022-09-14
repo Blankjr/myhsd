@@ -1,0 +1,14 @@
+version: '3.9'
+
+# For local testing and development only
+# Dockerized version of `npm run start`
+services:
+  react_dev_server:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    volumes:
+      - './:/app'
+      - '/app/node_modules'
+    ports:
+      - 3333:3000

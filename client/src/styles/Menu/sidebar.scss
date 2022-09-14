@@ -1,0 +1,159 @@
+/* Individual*/
+.bm-menu {
+  background-color: var(--hsd-red);
+  padding: 0;
+  z-index: 1000;
+  overflow-x: hidden !important;
+}
+.bm-item-list {
+  margin-top: 10%;
+  padding: 0;
+}
+.bm-item {
+  position: relative;
+  z-index: 1;
+  font-family: hsdFont, serif;
+  font-size: 0.78em;
+  color: whitesmoke;
+  padding: 2em;
+  background-color: rgb(255, 255, 255, 0.05);
+  margin-bottom: 10px;
+  transition: color 0.4s, background-color 0.4s;
+}
+.bm-item i,
+.bm-item svg {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1.5em;
+}
+
+a:hover {
+  i,
+  svg {
+    color: white;
+  }
+  color: white;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+.burger-icon {
+  position: fixed;
+}
+.navigation-footer {
+  background-color: transparent;
+}
+.navigation-footer div:nth-child(1) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+}
+.navigation-footer div:nth-child(2) {
+  line-height: 20%;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+}
+.navigation-footer div:nth-child(3) {
+  font-size: 5em;
+}
+.navigation-footer div:nth-child(4) {
+  font-size: 0.6em;
+  margin-top: -4%;
+  color: rgb(255, 255, 255, 0.5);
+}
+.navigation-footer div:nth-child(5),
+.navigation-footer i {
+  font-size: 0.8em;
+  color: whitesmoke;
+}
+
+/* Animations */
+.opening {
+  opacity: 0;
+  animation: fadeIn forwards;
+  animation-duration: 100ms;
+}
+
+.a1 {
+  animation-delay: 200ms;
+}
+
+.a2 {
+  animation-delay: 240ms;
+}
+
+.a3 {
+  animation-delay: 280ms;
+}
+
+.a4 {
+  animation-delay: 320ms;
+}
+
+.a5 {
+  animation-delay: 360ms;
+}
+
+.a6 {
+  animation-delay: 400ms;
+}
+
+.a7 {
+  animation-delay: 440ms;
+}
+
+.a8 {
+  animation-delay: 480ms;
+}
+/* animation end */
+
+.navigation-bg {
+  font-family: hsdFont, serif;
+  font-size: 5em;
+  writing-mode: vertical-rl;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation-bg {
+    opacity: 0;
+  }
+  .bm-item-list a:nth-child(1) {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navigation-bg {
+    font-size: 8em;
+  }
+  .bm-item-list {
+    margin-top: 5%;
+  }
+  .navigation-footer div:nth-child(4) {
+    margin-top: 0;
+  }
+}
+.navigation-bg-end {
+  position: relative;
+  z-index: 0;
+  right: -4.5em;
+  background-color: transparent;
+}
+
+// custom scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #312e2e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

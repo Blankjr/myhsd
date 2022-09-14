@@ -1,0 +1,291 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhsd
+  labels:
+    app: react
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: react
+    spec:
+      containers:
+        - name: react
+          image: registry.gitlab.com/Blankjr/progressive-web-app/myhsd:0fb5cf0
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 60
+            periodSeconds: 3600
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 60
+            periodSeconds: 30
+      imagePullSecrets:
+        - name: gitlabcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myhsd-svc
+  labels:
+    app: react
+  annotations:
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-ssl-ports: "443"
+    service.beta.kubernetes.io/oci-load-balancer-tls-secret: letsencrypt-certs
+spec:
+  selector:
+    app: react
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  - name: https
+    port: 443
+    targetPort: 80
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: myhsd
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: myhsd
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 50
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhsd-server
+  labels:
+    app: nest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nest
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: nest
+    spec:
+      containers:
+        - name: nest
+          image: registry.gitlab.com/Blankjr/progressive-web-app/myhsd-server:0f212661
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 60
+            periodSeconds: 3600
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 60
+            periodSeconds: 30
+      imagePullSecrets:
+        - name: gitlabcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myhsd-svc-server
+  labels:
+    app: nest
+  annotations:
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-ssl-ports: "443"
+    service.beta.kubernetes.io/oci-load-balancer-tls-secret: letsencrypt-certs
+spec:
+  selector:
+    app: nest
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+  - name: https
+    port: 443
+    targetPort: 3000
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: myhsd-server
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: myhsd-server
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 50     
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: staging-myhsd
+  labels:
+    app: staging-react
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: staging-react
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: staging-react
+    spec:
+      containers:
+        - name: staging-react
+          image: registry.gitlab.com/Blankjr/progressive-web-app/myhsd:60f4c3d1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 60
+            periodSeconds: 3600
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 60
+            periodSeconds: 30
+      imagePullSecrets:
+        - name: gitlabcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: staging-myhsd-svc
+  labels:
+    app: staging-react
+  annotations:
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-ssl-ports: "443"
+    service.beta.kubernetes.io/oci-load-balancer-tls-secret: letsencrypt-certs
+spec:
+  selector:
+    app: staging-react
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  - name: https
+    port: 443
+    targetPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: staging-myhsd-server
+  labels:
+    app: staging-nest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: staging-nest
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: staging-nest
+    spec:
+      containers:
+        - name: staging-nest
+          image: registry.gitlab.com/Blankjr/progressive-web-app/myhsd-server:2417f234
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 60
+            periodSeconds: 3600
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 60
+            periodSeconds: 30
+      imagePullSecrets:
+        - name: gitlabcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: staging-myhsd-svc-server
+  labels:
+    app: staging-nest
+  annotations:
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-ssl-ports: "443"
+    service.beta.kubernetes.io/oci-load-balancer-tls-secret: letsencrypt-certs
+spec:
+  selector:
+    app: staging-nest
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+  - name: https
+    port: 443
+    targetPort: 3000    

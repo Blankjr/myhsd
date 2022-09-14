@@ -1,0 +1,759 @@
+Datum;Tag;Studieng.;Code;Fachname;1. PrüferIn;2. PrüferIn;Raum;Dauer;Beginn;Titel
+13/07/2022;Mi;BMI10;BMI 26 ;IT-Sicherheit;Schmidt;Dahm;AM;90;13:00;
+13/07/2022;Mi;BMI10;BMI 4;Mediengestaltung 1;Schwab-Trapp;;n.V.;Referat;n.V.;
+13/07/2022;Mi;BMI10;BMI 11 ;Mediengestaltung 2;Schwab-Trapp;;n.V.;Referat;n.V.;
+14/07/2022;Do;BMI10;BMI 4;Mediengestaltung 1;Schwab-Trapp;;n.V.;Referat;n.V.;
+14/07/2022;Do;BMI10;BMI 11 ;Mediengestaltung 2;Schwab-Trapp;;n.V.;Referat;n.V.;
+15/07/2022;Fr;BMI10;BMI 20/27/30/33;BMI 54: Vertiefung Computergrafik;Mostafawy;Bonse;4.2.020;90;10:00;
+15/07/2022;Fr;BMI10;BMI 11 ;Mediengestaltung 2;Schwab-Trapp;;n.V.;Referat;n.V.;
+18/07/2022;Mo;BMI10;BMI 2;Datenbanksysteme 1;Rakow;Dahm;AM;90;11:00;
+19/07/2022;Di;BMI10;BMI 20/27/30/33;BMI 56: Web-Frameworks;Wojciechowski;Dahm;4.2.020;90;10:00;
+20/07/2022;Mi;BMI10;BMI 3;Webprogrammierung;Huldtgren;Dahm;4.2.020;90;10:00;
+21/07/2022;Do;BMI10;BMI 8;Datenbanksysteme 2;Rakow;Dahm;5.E.001+4.2.020;90;11:00;
+22/07/2022;Fr;BMI10;BMI 22 ;Web Engineering;Wojciechowski;Rakow;AM;90;9:00;
+25/07/2022;Mo;BMI10;BMI 31 ;Projektmanagement und IT-Recht;Klinkenberg;Prange;AM;90;11:00;
+26/07/2022;Di;BMI10;BMI 20/27/30/33;BMI 52: Interaktive Systeme;Dahm;Wojciechowski;5.E.001;90;11:00;
+26/07/2022;Di;BMI10;BMI 1;Objektorientierte Programmierung 1;Dahm;Rakow;5.E.001;90;11:00;
+26/07/2022;Di;BMI10;BMI 13 ;Software Engineering;Franz;Rakow;AM;90;16:00;
+28/07/2022;Do;BMI10;BMI 14 ;Formale Modelle und Algorithmen;Geiger;Schmidt;AM;90;10:00;
+15/08/2022;Mo;BMI10;BMI 17 ;Mensch-Computer-Interaktion;Dahm;Mostafawy;AM;90;15:00;
+16/08/2022;Di;BMI10;BMI 20/27/30/33;BMI 58: Web-Apps;Wojciechowski;Dahm;4.2.020;90;10:00;
+16/08/2022;Di;BMI10;BMI 24 ;Grundlagen der Betriebswirtschaft;Klinkenberg;Marmann;AM;90;14:00;
+17/08/2022;Mi;BMI10;BMI 5;Mathematik 1;Schmidt;Becker-Schweitzer;AM;90;10:00;
+18/08/2022;Do;BMI10;BMI 7;Objektorientierte Programmierung 2;Dahm;Rakow;AM;90;10:00;
+19/08/2022;Fr;BMI10;BMI 23 ;Digitale Bild- und Tontechnik;Bonse/Steffens;Becker-Schweitzer;AM;90;10:00;
+22/08/2022;Mo;BMI10;BMI 16 ;Grundlagen der Computergrafik;Mostafawy;;n.V.;Hausarbeit;12:00;
+22/08/2022;Mo;BMI10;BMI 19 ;Rechnernetze;Dörries;Schmidt;AM;90;9:00;
+23/08/2022;Di;BMI10;BMI 9;Rechnerarchitektur;Schmidt;Rakow;AM;90;12:00;
+24/08/2022;Mi;BMI10;BMI 12 ;Mathematik 2;Dörries;Schmidt;AM;90;10:00;
+26/08/2022;Fr;BMI10;BMI 18 ;Mathematik 3;Geiger;Becker-Schweitzer;4.1.006;90;10:00;
+T.n.V.;;BMI10;BMI 20/27/30/33;BMI 51: E-Business;Rakow;;n.V.;Referat;n.V.;
+T.n.V.;;BMI10;BMI 20/27/30/33;BMI 53: Multimedia-Kommunikation;Dörries;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI10;BMI 20/27/30/33;BMI 55: Virtuelle Realität;Herder;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI10;BMI 20/27/30/33;BMI 57: Entwicklung sicherer Software;Schmidt;;n.V.;Referat;n.V.;
+T.n.V.;;BMI10;BMI 30/33;BMI 72: Multimediales Erzählen/Konzeption & Entwurf;Schwab-Trapp;;n.V.;Referat;n.V.;
+T.n.V.;;BMI10;BMI 30/33;BMI 73: Pencils & Polygons;Mostafawy;;n.V.;Hausarbeit;n.V.;Grundlagen Zeichnen und Skizzieren
+T.n.V.;;BMI10;BMI 30/33;BMI 74: Rich Internet Applications;Marmann;;n.V.;Referat;n.V.;Seminar: Rich Internet Applications
+T.n.V.;;BMI10;BMI 30/33;BMI 95: Digitale Filmproduktion;Asal;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Rakow;;n.V.;Referat;n.V.;Datengetriebene Webanwendungen
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Schmidt;;n.V.;Referat;n.V.;Entwicklung einer Rubik's Cube 3D Anwendung mit Godot und C#
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Schmidt;;n.V.;Referat;n.V.;Hacking Challenges
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Huldtgren;;n.V.;Referat;n.V.;webbasierte Themenvisualisierung
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Wojciechowski;;n.V.;Referat;n.V.;Parallax Scrolling
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Dahm;;n.V.;Referat;n.V.;ShipZ - Schiffe versenken
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Dörries;;n.V.;Referat;n.V.;Lerntagebuch-App
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Franz;;n.V.;Referat;n.V.;SCRUM-Projekt: Quixx Online
+T.n.V.;;BMI10;BMI 10 ;Informatikprojekt 1;Huber;;n.V.;Referat;n.V.;Spiel(en) mit KI und Data Science in Python
+T.n.V.;;BMI10;BMI 15 ;Informatikprojekt 2;Wojciechowski;;n.V.;Referat;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI10;BMI 15 ;Informatikprojekt 2;Dahm;;n.V.;Referat;n.V.;meinMoodle 2.1
+T.n.V.;;BMI10;BMI 15 ;Informatikprojekt 2;Schmidt;;n.V.;Referat;n.V.;Entwicklung einer Rubik's Cube 3D Anwendung mit Godot und C#
+T.n.V.;;BMI10;BMI 15 ;Informatikprojekt 2;Schmidt;;n.V.;Referat;n.V.;Hacking Challenges
+T.n.V.;;BMI10;BMI 15 ;Informatikprojekt 2;Franz;;n.V.;Referat;n.V.;SCRUM-Projekt: Quixx Online
+T.n.V.;;BMI10;BMI 29 ;Kommunikationsdesign;Schwab-Trapp;;n.V.;Referat;n.V.;
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Wojciechowski;;n.V.;Referat;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Becker-Schweitzer;;n.V.;Referat;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Schwab-Trapp;;n.V.;Referat;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Marmann;;n.V.;Referat;n.V.;Studio5-Infotag
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Mostafawy;;n.V.;Referat;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Geiger;;n.V.;Referat;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Dederichs;;n.V.;Referat;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Geiger;;n.V.;Referat;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Geiger;;n.V.;Referat;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Schwab-Trapp;;n.V.;Referat;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Huldtgren;;n.V.;Referat;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Huldtgren;;n.V.;Referat;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Marmann;;n.V.;Referat;n.V.;Projekt: Digital Applications
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Dahm;;n.V.;Referat;n.V.;meinMoodle 2.1
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Schmidt;;n.V.;Referat;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Franz;;n.V.;Referat;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Huber;;n.V.;Referat;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;BMI10;BMI 21 ;Medienprojekt A;Huldtgren;;n.V.;Referat;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Wojciechowski;;n.V.;Referat;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Becker-Schweitzer;;n.V.;Referat;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Schwab-Trapp;;n.V.;Referat;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Marmann;;n.V.;Referat;n.V.;Studio5-Infotag
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Mostafawy;;n.V.;Referat;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Geiger;;n.V.;Referat;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Dederichs;;n.V.;Referat;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Geiger;;n.V.;Referat;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Geiger;;n.V.;Referat;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Schwab-Trapp;;n.V.;Referat;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Huldtgren;;n.V.;Referat;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Huldtgren;;n.V.;Referat;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Marmann;;n.V.;Referat;n.V.;Projekt: Digital Applications
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Dahm;;n.V.;Referat;n.V.;meinMoodle 2.1
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Schmidt;;n.V.;Referat;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Franz;;n.V.;Referat;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Huber;;n.V.;Referat;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;BMI10;BMI 28 ;Medienprojekt B;Huldtgren;;n.V.;Referat;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;BMI10;BMI 6;Technisches Englisch;Zupfer;;n.V.;Mündliche Prüfung;n.V.;
+13/07/2022;Mi;BMI18;BMI 26;IT-Sicherheit;Schmidt;;AM;90;13:00;
+13/07/2022;Mi;BMI18;BMI 04;Mediengestaltung 1;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+13/07/2022;Mi;BMI18;BMI 11;Mediengestaltung 2;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+14/07/2022;Do;BMI18;BMI 04;Mediengestaltung 1;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+14/07/2022;Do;BMI18;BMI 11;Mediengestaltung 2;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+15/07/2022;Fr;BMI18;BMI 36/37/38/39/42;BMI 54: Vertiefung Computergrafik;Mostafawy;;4.2.020;90;10:00;
+15/07/2022;Fr;BMI18;BMI 11;Mediengestaltung 2;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+18/07/2022;Mo;BMI18;BMI 02;Datenbanksysteme 1;Rakow;;AM;90;11:00;
+19/07/2022;Di;BMI18;BMI 36/37/38/39/42;BMI 56: Web-Frameworks;Wojciechowski;;4.2.020;90;10:00;
+20/07/2022;Mi;BMI18;BMI 03;Webprogrammierung;Huldtgren;;4.2.020;90;10:00;
+21/07/2022;Do;BMI18;BMI 08;Datenbanksysteme 2;Rakow;;5.E.001+4.2.020;90;11:00;
+22/07/2022;Fr;BMI18;BMI 22;Web Engineering;Wojciechowski;;AM;90;9:00;
+25/07/2022;Mo;BMI18;BMI 31;Projektmanagement, Medien und IT-Recht;Klinkenberg;;AM;90;11:00;
+26/07/2022;Di;BMI18;BMI 36/37/38/39/42;BMI 52: Interaktive Systeme;Dahm;;5.E.001;90;11:00;
+26/07/2022;Di;BMI18;BMI 01;Objektorientierte Programmierung 1;Dahm;;5.E.001;90;11:00;
+26/07/2022;Di;BMI18;BMI 13;Software Engineering;Franz;;AM;90;16:00;
+28/07/2022;Do;BMI18;BMI 14;Formale Modelle und Algorithmen;Geiger;;AM;90;10:00;
+15/08/2022;Mo;BMI18;BMI 17;Mensch-Computer-Interaktion;Dahm;;AM;90;15:00;
+16/08/2022;Di;BMI18;BMI 36/37/38/39/42;BMI 58: Web-Apps;Wojciechowski;;4.2.020;90;10:00;
+16/08/2022;Di;BMI18;BMI 24;Grundlagen der Betriebswirtschaft;Klinkenberg;;AM;90;14:00;
+17/08/2022;Mi;BMI18;BMI 05;Mathematik 1;Schmidt;;AM;90;10:00;
+18/08/2022;Do;BMI18;BMI 07;Objektorientierte Programmierung 2;Dahm;;AM;90;10:00;
+19/08/2022;Fr;BMI18;BMI 23;Digitale Bild- und Tontechnik;Bonse/Steffens;;AM;90;10:00;
+22/08/2022;Mo;BMI18;BMI 16;Grundlagen der Computergrafik;Mostafawy;;n.V.;Studienarbeit;12:00;
+22/08/2022;Mo;BMI18;BMI 19;Rechnernetze;Dörries;;AM;90;9:00;
+23/08/2022;Di;BMI18;BMI 35;Rechnerarchitektur und Professionelles Studieren;Schmidt;;AM;90;12:00;
+24/08/2022;Mi;BMI18;BMI 12;Mathematik 2;Dörries;;AM;90;10:00;
+25/08/2022;Do;BMI18;BMI 40;Betriebssysteme;Franz;;AM;90;14:00;
+26/08/2022;Fr;BMI18;BMI 18;Mathematik 3;Geiger;;4.1.006;90;10:00;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 51: E-Business;Rakow;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 53: Multimedia-Kommunikation;Dörries;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 55: Virtuelle Realität;Herder;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 57: Entwicklung sicherer Software;Schmidt;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 59: Computeranimation;Mostafawy;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/38;BMI 60: Software-Architektur;Franz;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMI18;BMI 42;BMI 71: Unternehmensgründung;Klinkenberg;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI18;BMI 37/39/42;BMI 72: Multimediales Erzählen/Konzeption & Entwurf;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 37/39/42;BMI 73: Pencils & Polygons;Mostafawy;;n.V.;Portfolio;n.V.;Grundlagen Zeichnen und Skizzieren
+T.n.V.;;BMI18;BMI 37/38/42;BMI 75: Kommunikationsdesign;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 37/39/42;BMI 76. Digital Literacy;Marmann;;n.V.;Portfolio;n.V.;Seminar: Digital Literacy
+T.n.V.;;BMI18;BMI 37/39/42;BMI 78: Intelligente Systeme;Geiger;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 81: Vertiefung Netzwerktechnik;Dederichs;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 82: Spezialgebiete Netzwerktechnik;Dederichs;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMI18;BMI 36/37/38/39/42;BMI 93: Informationsvisualisierung;Geiger;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 37/39/42;BMI 95: Digitale Filmproduktion;Asal;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMI18;BMI 42;Individuelle Vertiefung;Huldtgren;;n.V.;Projektprüfung;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;BMI18;BMI 42;Individuelle Vertiefung;Zupfer;;n.V.;Projektprüfung;n.V.;Business English for Media Business
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Rakow;;n.V.;Projektprüfung;n.V.;Datengetriebene Webanwendungen
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Schmidt;;n.V.;Projektprüfung;n.V.;Entwicklung einer Rubik's Cube 3D Anwendung mit Godot und C#
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Schmidt;;n.V.;Projektprüfung;n.V.;Hacking Challenges
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Huldtgren;;n.V.;Projektprüfung;n.V.;webbasierte Themenvisualisierung
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Wojciechowski;;n.V.;Projektprüfung;n.V.;Parallax Scrolling
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Dahm;;n.V.;Projektprüfung;n.V.;ShipZ - Schiffe versenken
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Dörries;;n.V.;Projektprüfung;n.V.;Lerntagebuch-App
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Franz;;n.V.;Projektprüfung;n.V.;SCRUM-Projekt: Quixx Online
+T.n.V.;;BMI18;BMI 10;Informatikprojekt 1;Huber;;n.V.;Projektprüfung;n.V.;Spiel(en) mit KI und Data Science in Python
+T.n.V.;;BMI18;BMI 15;Informatikprojekt 2;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI18;BMI 15;Informatikprojekt 2;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMI18;BMI 15;Informatikprojekt 2;Schmidt;;n.V.;Projektprüfung;n.V.;Entwicklung einer Rubik's Cube 3D Anwendung mit Godot und C#
+T.n.V.;;BMI18;BMI 15;Informatikprojekt 2;Schmidt;;n.V.;Projektprüfung;n.V.;Hacking Challenges
+T.n.V.;;BMI18;BMI 15;Informatikprojekt 2;Franz;;n.V.;Projektprüfung;n.V.;SCRUM-Projekt: Quixx Online
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Dederichs;;n.V.;Projektprüfung;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Huldtgren;;n.V.;Projektprüfung;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Huldtgren;;n.V.;Projektprüfung;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Schmidt;;n.V.;Projektprüfung;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Franz;;n.V.;Projektprüfung;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Huber;;n.V.;Projektprüfung;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;BMI18;BMI 21;Medienprojekt A;Huldtgren;;n.V.;Projektprüfung;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Dederichs;;n.V.;Projektprüfung;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Huldtgren;;n.V.;Projektprüfung;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Huldtgren;;n.V.;Projektprüfung;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Schmidt;;n.V.;Projektprüfung;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Franz;;n.V.;Projektprüfung;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Huber;;n.V.;Projektprüfung;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;BMI18;BMI 28;Medienprojekt B;Huldtgren;;n.V.;Projektprüfung;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Marmann;;n.V.;Projektprüfung;n.V.;Seminar: Digital Literacy
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Dederichs;;n.V.;Projektprüfung;n.V.;Netzwerktechnik Security
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D, Individuelle Vertiefung;Dederichs;;n.V.;Projektprüfung;n.V.;Linux Essentials
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Dederichs;;n.V.;Projektprüfung;n.V.;Linux II - Engineer
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Dederichs;;n.V.;Projektprüfung;n.V.;Linux I - Administrator
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMI18;BMI 42;Vertiefung B/D, Individuelle Vertiefung;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Dederichs;;n.V.;Projektprüfung;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D, Individuelle Vertiefung;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMI18;BMI 37/39;Vertiefung B/D, Individuelle Vertiefung;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMI18;BMI 37/39/42;Vertiefung B/D, Individuelle Vertiefung;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+14/07/2022;Do;BMT10;BMT 8;Grundlagen der Elektrotechnik ;Witte;Hiller;AM;90;11:00;
+15/07/2022;Fr;BMT10;BMT 15.1 ;BV1/2: Vertiefung Computergrafik;Mostafawy;Bonse;4.2.020;90;10:00;
+19/07/2022;Di;BMT10;BMT 9;Netzwerktechnik ;Dederichs;Dörries;AM;90;8:30;
+22/07/2022;Fr;BMT10;BMT 4;Grundlagen Digitaltechnik;Witte;Hiller;04.1.006;90;11:00;
+25/07/2022;Mo;BMT10;BMT 19 ;Medien- und IT-Recht, Projektmanagement;Klinkenberg;Prange;AM;90;11:00;
+26/07/2022;Di;BMT10;BMT 5;Informatik für Ingenieure;Wojciechowski;Hiller;4.2.020;90;10:00;
+26/07/2022;Di;BMT10;BMT 16 ;Multimedia Engineering ;Marmann;Herder;4.1.006;90;14:00;
+28/07/2022;Do;BMT10;BMT 11 ;Grundlagen der Akustik;Steffens;Becker-Schweitzer;AM;90;12:30;
+15/08/2022;Mo;BMT10;BMT 28.F;Mensch-Computer-Interaktion;Dahm;Mostafawy;AM;90;15:00;
+16/08/2022;Di;BMT10;BMT 22 ;BV1/2: BWL;Klinkenberg;Marmann;AM;90;14:00;
+16/08/2022;Di;BMT10;BMT 12 ;Tonstudiotechnik ;Leckschat;Becker-Schweitzer;AM;90;9:00;
+18/08/2022;Do;BMT10;BMT 14 ;Signalverarbeitung;Dederichs;Becker-Schweitzer;AM;90;15:00;
+19/08/2022;Fr;BMT10;BMT 13.1 ;BV1: Digitale Bild- und Videotechnik;Bonse;Mostafawy;AM;90;10:00;
+22/08/2022;Mo;BMT10;BMT 15 ;Grundlagen der Computergrafik ;Mostafawy;;n.V.;Hausarbeit;12:00;
+23/08/2022;Di;BMT10;BMT 12.1 ;BV1: Vertiefung Tonstudiotechnik;Leckschat;Becker-Schweitzer;AM;90;15:00;
+23/08/2022;Di;BMT10;BMT 2;Grundlagen 2 Mathematik, Physik;Becker-Schweitzer;Schmidt;AM;120;9:00;
+24/08/2022;Mi;BMT10;BMT 11.2 ;BV2: Raumakustik ;Goebels;Becker-Schweitzer;AM;90;13:00;Raumakustik 1
+24/08/2022;Mi;BMT10;BMT 28.H;Vertiefung Raumakustik;Goebels;;4.1.006;Mündliche Prüfung;n.V.;Raumakustik 2
+24/08/2022;Mi;BMT10;BMT 23 ;Virtuelles Studio ;Herder;;n.V.;Mündliche Prüfung;n.V.;
+25/08/2022;Do;BMT10;BMT 23 ;Virtuelles Studio ;Herder;;n.V.;Mündliche Prüfung;n.V.;
+26/08/2022;Fr;BMT10;BMT 1;Grundlagen 1 Mathematik, Physik;Becker-Schweitzer;Schmidt;AM;120;13:00;
+26/08/2022;Fr;BMT10;BMT 13 ;Grundlagen der Bild- und Videotechnik;Bonse;Mostafawy;4.2.020;90;9:00;
+T.n.V.;;BMT10;BMT 28.G;Bildcompositing und Projectionsmapping;Witte;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 15.2 ;BV 1/2: Virtuelle Realität;Herder;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT10;BMT 18.1 ;BV1/2: Lichttechnik;Witte;;n.V.;Seminar-/ Übungsaufgaben/ Laborversuche, §18d;n.V.;
+T.n.V.;;BMT10;BMT 18.2 ;BV1/2: Technische Messestandsplanung;Witte;;n.V.;Seminar-/ Übungsaufgaben/ Laborversuche, §18d;n.V.;
+T.n.V.;;BMT10;BMT 17.1 ;BV1: Multimedia Authoring 1;Asal;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 16.1 ;BV1: Rich Internet Applications;Marmann;;n.V.;Referat;n.V.;Seminar: Rich Internet Applications
+T.n.V.;;BMT10;BMT 11.1 ;BV1: Vertiefung Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT10;BMT 17.2 ;BV2: Multimedia Authoring 2;Asal;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 11.3 ;BV2: Spezialgebiete der Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;Musikalische Akustik
+T.n.V.;;BMT10;BMT 11.3 ;BV2: Spezialgebiete der Akustik;Goebels;;4.1.006;Mündliche Prüfung;n.V.;Raumakustik 2
+T.n.V.;;BMT10;BMT 13.2 ;BV2: Spezialgebiete der Bildtechnik;Mostafawy;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT10;BMT 13.2 ;BV2: Spezialgebiete der Bildtechnik;Bonse;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 12.2 ;BV2: Spezialgebiete der Tonstudiotechnik;Leckschat;;n.V.;Mündliche Prüfung;n.V.;Elektroakustik
+T.n.V.;;BMT10;BMT 28.C;Externe Kurseinheiten;NN;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 10 ;Mediengestaltung ;Asal;;n.V.;Referat;n.V.;
+T.n.V.;;BMT10;BMT 28.E;Pencils and Polygons;Mostafawy;;n.V.;Hausarbeit;n.V.;Grundlagen Zeichnen und Skizzieren 
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Wojciechowski;;n.V.;Referat;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Leckschat;;n.V.;Referat;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Becker-Schweitzer;;n.V.;Referat;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Schwab-Trapp;;n.V.;Referat;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Bonse;;n.V.;Referat;n.V.;Catch me if you can
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Steffens;;n.V.;Referat;n.V.;Filmmusik
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;VS Tutorials
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Mostafawy;;n.V.;Referat;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Geiger;;n.V.;Referat;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Geiger;;n.V.;Referat;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Schwab-Trapp;;n.V.;Referat;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Leckschat;;n.V.;Referat;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Marmann;;n.V.;Referat;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT10;BMT 20 ;Projekt Medientechnik A;Dahm;;n.V.;Referat;n.V.;meinMoodle 2.1
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Wojciechowski;;n.V.;Referat;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Leckschat;;n.V.;Referat;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Becker-Schweitzer;;n.V.;Referat;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Schwab-Trapp;;n.V.;Referat;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Bonse;;n.V.;Referat;n.V.;Catch me if you can
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Steffens;;n.V.;Referat;n.V.;Filmmusik
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;VS Tutorials
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Mostafawy;;n.V.;Referat;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Geiger;;n.V.;Referat;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Geiger;;n.V.;Referat;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Schwab-Trapp;;n.V.;Referat;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Leckschat;;n.V.;Referat;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Marmann;;n.V.;Referat;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT10;BMT 24 ;Projekt Medientechnik B ;Dahm;;n.V.;Referat;n.V.;meinMoodle 2.1
+T.n.V.;;BMT10;BMT 6;Querschnittskompetenz;Zupfer/Antes;Meier/Klinkenberg;n.V.;90;n.V.;
+T.n.V.;;BMT10;BMT 7;Technisches Praktikum;Witte;;n.V.;Laborversuche;n.V.;
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Dederichs;;n.V.;Referat;n.V.;Netzwerktechnik Security
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Dederichs;;n.V.;Referat;n.V.;Linux Essentials
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Dederichs;;n.V.;Referat;n.V.;Linux II - Engineer
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Dederichs;;n.V.;Referat;n.V.;Linux I - Administrator
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Dederichs;;n.V.;Referat;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Zupfer;;n.V.;Referat;n.V.;Business English for Media Business
+T.n.V.;;BMT10;BMT 28.D;WF interdis.: Medientechnik interdis.;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+14/07/2022;Do;BMT18;BMT 08;Grundlagen der Elektrotechnik ;Witte;;AM;90;11:00;
+15/07/2022;Fr;BMT18;BMT 17.F09;WK2: Vertiefung Computergrafik;Mostafawy;;4.2.020;90;10:00;
+18/07/2022;Mo;BMT18;BMT 17.W05;WK2: Multicopter Technologie;Witte;;4.1.006;90;14:00;
+19/07/2022;Di;BMT18;BMT 09;Netzwerktechnik ;Dederichs;;AM;90;8:30;
+20/07/2022;Mi;BMT18;BMT 20.W01;WK3: Webprogrammierung;Huldtgren;;4.2.020;90;10:00;
+22/07/2022;Fr;BMT18;BMT 04;Grundlagen Digitaltechnik;Witte;;04.1.006;90;11:00;
+25/07/2022;Mo;BMT18;BMT 21;Projektmanagement, Medien- und IT-Recht;Klinkenberg;;AM;90;11:00;
+26/07/2022;Di;BMT18;BMT 05;Informatik für Ingenieure;Wojciechowski;;4.2.020;90;10:00;
+26/07/2022;Di;BMT18;BMT 16;Interaktive Medien und Wissensmanagement;Marmann;;4.1.006;60;14:00;
+28/07/2022;Do;BMT18;BMT 14;Technische Akustik;Steffens;;AM;90;12:30;
+29/07/2022;Fr;BMT18;BMT 10.02;WK1: Technische Informatik;Epe;;5.E.001;90;16:00;
+15/08/2022;Mo;BMT18;BMT 20.W05;WK3: Mensch-Computer-Interaktion;Dahm;;AM;90;15:00;
+16/08/2022;Di;BMT18;BMT 19;Grundlagen Betriebswirtschaftslehre;Klinkenberg;;AM;90;14:00;
+16/08/2022;Di;BMT18;BMT 13;Tonstudiotechnik ;Leckschat;;AM;90;9:00;
+18/08/2022;Do;BMT18;BMT 15;Signalverarbeitung;Dederichs;;AM;90;15:00;
+19/08/2022;Fr;BMT18;BMT 17.F07;WK2: Vertiefung Bildtechnik;Bonse;;AM;90;10:00;
+22/08/2022;Mo;BMT18;BMT 11;Grundlagen der Computergrafik ;Mostafawy;;n.V.;Studienarbeit;12:00;
+23/08/2022;Di;BMT18;BMT 02;Grundlagen 2 Mathematik, Physik;Becker-Schweitzer;;AM;120;9:00;
+23/08/2022;Di;BMT18;BMT 17.F01;WK2: Vertiefung Tonstudiotechnik;Leckschat;;AM;90;15:00;
+24/08/2022;Mi;BMT18;BMT 18;Virtuelles Studio ;Herder;;n.V.;Mündliche Prüfung;n.V.;
+24/08/2022;Mi;BMT18;BMT 17.F03;WK2: Raum- und Bauakustik ;Goebels;;AM;90;13:00;
+24/08/2022;Mi;BMT18;BMT 20.F03;WK3: Vertiefung Raum- und Bauakustik ;Goebels;;4.1.006;Mündliche Prüfung;n.V.;
+25/08/2022;Do;BMT18;BMT 18;Virtuelles Studio ;Herder;;n.V.;Mündliche Prüfung;n.V.;
+26/08/2022;Fr;BMT18;BMT 01;Grundlagen 1 Mathematik, Physik;Becker-Schweitzer;;AM;120;13:00;
+26/08/2022;Fr;BMT18;BMT 12;Grundlagen Bildtechnik;Bonse;;4.2.020;90;9:00;
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Dederichs;;n.V.;Projektprüfung;n.V.;Netzwerktechnik Security
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Dederichs;;n.V.;Projektprüfung;n.V.;Linux Essentials
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Dederichs;;n.V.;Projektprüfung;n.V.;Linux II - Engineer
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Dederichs;;n.V.;Projektprüfung;n.V.;Linux I - Administrator
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Dederichs;;n.V.;Projektprüfung;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Zupfer;;n.V.;Projektprüfung;n.V.;Business English for Media Business
+T.n.V.;;BMT18;BMT 23.I2;Individuelles Wahlfach;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 06;Medientheorie und Mediengestaltung;Asal;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 17.P04;Projekt Digital Application;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 17.P01;Projekt Medientechnik A;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Leckschat;;n.V.;Projektprüfung;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Leckschat;;n.V.;Projektprüfung;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 17.P02;Projekt Medientechnik A1;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Leckschat;;n.V.;Projektprüfung;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Leckschat;;n.V.;Projektprüfung;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 17.P03;Projekt Medientechnik A2;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 20.P01;Projekt Medientechnik B ;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Leckschat;;n.V.;Projektprüfung;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Leckschat;;n.V.;Projektprüfung;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 20.P02;Projekt Medientechnik B1;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Leckschat;;n.V.;Projektprüfung;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Becker-Schweitzer;;n.V.;Projektprüfung;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Steffens;;n.V.;Projektprüfung;n.V.;Filmmusik
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;VS Tutorials
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Mostafawy;;n.V.;Projektprüfung;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Asal;;n.V.;Projektprüfung;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Leckschat;;n.V.;Projektprüfung;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;BMT18;BMT 20.P03;Projekt Medientechnik B2;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;BMT18;BMT 17.W03;Studienarbeit 1;Marmann;;n.V.;Studienarbeitsprüfung;n.V.;STT und TTS auf Basis des VOSK-Server
+T.n.V.;;BMT18;BMT 17.W03;Studienarbeit 1;Bonse;;n.V.;Studienarbeitsprüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.W03;Studienarbeit 2;Marmann;;n.V.;Studienarbeitsprüfung;n.V.;STT und TTS auf Basis des VOSK-Server
+T.n.V.;;BMT18;BMT 20.W03;Studienarbeit 2;Bonse;;n.V.;Studienarbeitsprüfung;n.V.;
+T.n.V.;;BMT18;BMT 07;Technisches Praktikum;Witte;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 10.01;WK1: Audiovisuelle Mediengestaltung;Asal;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 17.F08;WK2: Crossmedia Production 1;Asal;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.F06;WK2: Digital Literacy;Marmann;;n.V.;Portfolio;n.V.;Seminar: Digital Literacy
+T.n.V.;;BMT18;BMT 17.W01;WK2: Image Compositing and Projection Mapping;Witte;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.F10;WK2: Lichttechnik;Witte;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.W08;WK2: Mediales Erzählen / Konzeption und Entwurf;Schwab-Trapp;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 17.W02;WK2: Pencils and Polygons;Mostafawy;;n.V.;Portfolio;n.V.;Grundlagen Zeichnen und Skizzieren 
+T.n.V.;;BMT18;BMT 17.F04;WK2: Signalanalyse / Vertiefung Nachrichtentechnik;Dederichs;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.W04;WK2: Unternehmensgründung;Klinkenberg;;n.V.;Studienarbeitsprüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.F02;WK2: Vertiefung Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 17.F05;WK2: Vertiefung Netzwerktechnik;Dederichs;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F12;WK3: Computeranimation;Mostafawy;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F08;WK3: Crossmedia Production 2;Asal;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.W06;WK3: E-Business;Rakow;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 20.F04;WK3: Informationsvisualisierung;Geiger;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F02;WK3: Spezialgebiete der Akustik;Goebels;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F02;WK3: Spezialgebiete der Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;Musikalische Akustik
+T.n.V.;;BMT18;BMT 20.F07;WK3: Spezialgebiete der Bildtechnik;Bonse;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F05;WK3: Spezialgebiete der Netzwerktechnik;Dederichs;;n.V.;Portfolio;n.V.;
+T.n.V.;;BMT18;BMT 20.F01;WK3: Spezialgebiete der Tonstudiotechnik;Leckschat;;n.V.;Mündliche Prüfung;n.V.;Elektroakustik
+T.n.V.;;BMT18;BMT 20.F10;WK3: Technische Ausstellungsplanung;Witte;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BMT18;BMT 20.F09;WK3: Virtuelle Realität;Herder;;n.V.;Mündliche Prüfung;n.V.;
+14/07/2022;Do;BTB10;BTB 4;Grundlagen der Elektrotechnik;Witte;Hiller;AM;90;11:00;
+22/07/2022;Fr;BTB10;BTB 7.4;TWPF Grundlagen Digitaltechnik;Witte;Hiller;04.1.006;90;11:00;
+25/07/2022;Mo;BTB10;BTB 20.2 ;Medienrecht/internat. Medienbeziehungen;Klinkenberg;Prange;AM;90;11:00;
+26/07/2022;Di;BTB10;BTB 3;Informatik für Ingenieure;Wojciechowski;Hiller;4.2.020;90;10:00;
+28/07/2022;Do;BTB10;BTB 9a ;Akustik 1;Steffens;Becker-Schweitzer;AM;90;12:30;
+29/07/2022;Fr;BTB10;BTB 20.3 ;Projektmanagement WPF;Klinkenberg;Marmann;4.1.006;90;14:00;
+16/08/2022;Di;BTB10;BTB 20.1 ;BWL;Klinkenberg;Marmann;AM;90;14:00;
+16/08/2022;Di;BTB10;BTB 10 ;Tonstudiotechnik;Leckschat;Münster;AM;180;9:00;
+18/08/2022;Do;BTB10;BTB 8;Nachrichtentechnik;Dederichs;Becker-Schweitzer;AM;90;15:00;
+19/08/2022;Fr;BTB10;BTB 11 ;Bildtechnik;Bonse;Mostafawy;AM;120;10:00;
+23/08/2022;Di;BTB10;BTB 2;Grundlagen 2 Mathematik, Physik;Becker-Schweitzer;Schmidt;AM;120;9:00;
+24/08/2022;Mi;BTB10;BTB 20.61;Vertiefung Raumakustik 1;Goebels;Becker-Schweitzer;AM;90;13:00;
+24/08/2022;Mi;BTB10;BTB 20.62;Vertiefung Raumakustik 2;Goebels;;n.V.;Mündliche Prüfung;n.V.;
+25/08/2022;Do;BTB10;BTB 20.13;Virtuelles Studio;Herder;;n.V.;Mündliche Prüfung;n.V.;
+26/08/2022;Fr;BTB10;BTB 1;Grundlagen 1 Mathematik, Physik;Becker-Schweitzer;Schmidt;AM;120;13:00;
+T.n.V.;;BTB10;BTB 9b ;Akustik 2;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB10;BTB 12 ;Multimedia Authoring;Asal;;n.V.;Studienarbeit;n.V.;
+T.n.V.;;BTB10;BTB 20.14;Musikalische Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB10;BTB 5;Praktikum Informatik, Elektrotechn., Physik ;Becker-Schweitzer;;n.V.;Seminar-/ Übungsaufgaben/ Laborversuche, §18d;n.V.;
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Dederichs;;n.V.;Studienarbeit;n.V.;Netzwerktechnik Security
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;HSDtv - Newsroom
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;Panorama Derendorf
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Bonse;;n.V.;Studienarbeit;n.V.;Catch me if you can
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Steffens;;n.V.;Studienarbeit;n.V.;Filmmusik
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Herder;;n.V.;Studienarbeit;n.V.;VS Tutorials
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Marmann;;n.V.;Studienarbeit;n.V.;Studio5-Infotag
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Geiger;;n.V.;Studienarbeit;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Asal;;n.V.;Studienarbeit;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Dederichs;;n.V.;Studienarbeit;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Geiger;;n.V.;Studienarbeit;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BTB10;BTB 20.9.10CP;Projekt 10CP;Steffens;;n.V.;Studienarbeit;n.V.;Akustische Hörexpertise
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Vertiefung Netzwerktechnik
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Spezialgebiete der Netzwerktechnik
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Leckschat;;n.V.;Studienarbeit;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Linux Essentials
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;HSDtv - Newsroom
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;Panorama Derendorf
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Becker-Schweitzer;;n.V.;Studienarbeit;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Schwab-Trapp;;n.V.;Studienarbeit;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Bonse;;n.V.;Studienarbeit;n.V.;Catch me if you can
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Steffens;;n.V.;Studienarbeit;n.V.;Filmmusik
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Linux II - Engineer
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Linux I - Administrator
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;VS Tutorials
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Mostafawy;;n.V.;Studienarbeit;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Geiger;;n.V.;Studienarbeit;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Asal;;n.V.;Studienarbeit;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Geiger;;n.V.;Studienarbeit;n.V.;Hologramm Pförtner*in
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Dederichs;;n.V.;Studienarbeit;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Geiger;;n.V.;Studienarbeit;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Schwab-Trapp;;n.V.;Studienarbeit;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Steffens;;n.V.;Studienarbeit;n.V.;Akustische Hörexpertise
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Leckschat;;n.V.;Studienarbeit;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BTB10;BTB 20.9.5CP;Projekt 5CP;Herder;;n.V.;Studienarbeit;n.V.;Connected Exhibition
+T.n.V.;;BTB10;BTB 20.4 ;Spezialgebiete der Bildtechnik WPF;Bonse;;n.V.;Studienarbeit;n.V.;
+T.n.V.;;BTB10;BTB 20.12;Spezialgebiete der Tonstudiotechnik WPF;Leckschat;;n.V.;Mündliche Prüfung;n.V.;Elektroakustik
+T.n.V.;;BTB10;BTB 20.20.5CP;Spezielle Module aus anderen Studiengängen 5 CP;Mostafawy;;n.V.;Hausarbeit;12:00;Grundlagen der Computergrafik 
+T.n.V.;;BTB10;BTB 20.20.5CP;Spezielle Module aus anderen Studiengängen 5 CP;Herder;;n.V.;Projektbericht und Referat;n.V.;Connected Exhibition
+T.n.V.;;BTB10;BTB 7.3;TWPF Signalübertragung;Becker-Schweitzer;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB10;BTB 20.5 ;Vertief. Tonst./Dig. Audiosignalv.;Leckschat;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB10;BTB 6.1;Wahlpraktikum Signalübertragung;Becker-Schweitzer;;n.V.;Seminar-/ Übungsaufgaben/ Laborversuche, §18d;n.V.;
+14/07/2022;Do;BTB18;BTB 03;Grundlagen der Elektrotechnik;Witte;;AM;90;11:00;
+19/07/2022;Di;BTB18;BTB 08;Netzwerktechnik;Dederichs;;AM;90;8:30;
+22/07/2022;Fr;BTB18;BTB 20.19;Grundlagen der Digitaltechnik;Witte;;04.1.006;90;11:00;
+25/07/2022;Mo;BTB18;BTB 20.02;Medienrecht/internationale Medienbeziehungen;Klinkenberg;;AM;90;11:00;
+26/07/2022;Di;BTB18;BTB 04;Informatik für Ingenieure;Wojciechowski;;4.2.020;90;10:00;
+28/07/2022;Do;BTB18;BTB 11;Akustik 1: Technische Akustik;Steffens;;AM;90;12:30;
+29/07/2022;Fr;BTB18;BTB 20.03;Projektmanagement;Klinkenberg;;4.1.006;90;14:00;
+29/07/2022;Fr;BTB18;BTB 05;Technische Informatik;Epe;;5.E.001;90;16:00;
+16/08/2022;Di;BTB18;BTB 20.01;Betriebswirtschaftslehre;Klinkenberg;;AM;90;14:00;
+16/08/2022;Di;BTB18;BTB 10;Tonstudiotechnik;Leckschat;;AM;120;9:00;
+18/08/2022;Do;BTB18;BTB 07;Signalverarbeitung / Nachrichtentechnik 1;Dederichs;;AM;90;15:00;
+19/08/2022;Fr;BTB18;BTB 06;Bildtechnik;Bonse;;AM;120;10:00;
+23/08/2022;Di;BTB18;BTB 02;Grundlagen 2 Mathematik und Physik;Becker-Schweitzer;;AM;120;9:00;
+24/08/2022;Mi;BTB18;BTB 20.06.1;Vertiefung Raum- und Bauakustik 1;Goebels;;AM;90;13:00;
+24/08/2022;Mi;BTB18;BTB 20.06.2;Vertiefung Raum- und Bauakustik 2;Goebels;;n.V.;Mündliche Prüfung;n.V.;
+25/08/2022;Do;BTB18;BTB 20.13;Virtuelles Studio;Herder;;n.V.;Mündliche Prüfung;n.V.;
+26/08/2022;Fr;BTB18;BTB 01;Grundlagen 1 Mathematik, Physik;Becker-Schweitzer;;AM;120;13:00;
+T.n.V.;;BTB18;BTB 12;Akustik 2: Psychoakustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB18;BTB 20.18;Crossmedia Production;Asal;;n.V.;Referat;n.V.;
+T.n.V.;;BTB18;BTB 20.14;Musikalische Akustik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Dederichs;;n.V.;Referat;n.V.;Netzwerktechnik Security
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Bonse;;n.V.;Referat;n.V.;Catch me if you can
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Steffens;;n.V.;Referat;n.V.;Filmmusik
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Herder;;n.V.;Referat;n.V.;VS Tutorials
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Marmann;;n.V.;Referat;n.V.;Studio5-Infotag
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Dederichs;;n.V.;Referat;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Geiger;;n.V.;Referat;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;BTB18;BTB 20.09.2;Projekt 10CP;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Vertiefung Netzwerktechnik
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Spezialgebiete der Netzwerktechnik
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Leckschat;;n.V.;Referat;n.V.;Musikproduktion mit Immersive Audio - Technologien
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Linux Essentials
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;HSDtv - Newsroom
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;Panorama Derendorf
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Becker-Schweitzer;;n.V.;Referat;n.V.;Messdaten - Erfassen, Analysieren, Regeln, Darstellen
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Schwab-Trapp;;n.V.;Referat;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Bonse;;n.V.;Referat;n.V.;Catch me if you can
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Steffens;;n.V.;Referat;n.V.;Filmmusik
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Linux II - Engineer
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Linux I - Administrator
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;VS Tutorials
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Mostafawy;;n.V.;Referat;n.V.;Previsualisierung in Film und VFX
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Geiger;;n.V.;Referat;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Asal;;n.V.;Referat;n.V.;KIDS 'N TRICKS Volume 6 Animationsfilm und Making of
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Geiger;;n.V.;Referat;n.V.;Hologramm Pförtner*in
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Dederichs;;n.V.;Referat;n.V.;Sprachverständlichkeit im Frequenzbereich (Signalverarbeitung)
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Geiger;;n.V.;Referat;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Schwab-Trapp;;n.V.;Referat;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Steffens;;n.V.;Referat;n.V.;Akustische Hörexpertise
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Leckschat;;n.V.;Referat;n.V.;Vom Lautsprecher zum professionellen Studiomonitor
+T.n.V.;;BTB18;BTB 20.09.1;Projekt 5CP;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BTB18;BTB 20.07;Signalanalyse / Nachrichtentechnik 2;Dederichs;;n.V.;Referat;n.V.;
+T.n.V.;;BTB18;BTB 20.04;Spezialgebiete der Bildtechnik;Bonse;;n.V.;Referat;n.V.;
+T.n.V.;;BTB18;BTB 20.15;Spezialgebiete der Netzwerktechnik;Dederichs;;n.V.;Portfolio;n.V.;
+T.n.V.;;BTB18;BTB 20.12;Spezialgebiete der Tonstudiotechnik;Leckschat;;n.V.;Mündliche Prüfung;n.V.;Elektroakustik
+T.n.V.;;BTB18;BTB 20.20;Spezielle Module aus anderen Studiengängen;Mostafawy;;n.V.;Studienarbeit;12:00;Grundlagen der Computergrafik 
+T.n.V.;;BTB18;BTB 20.20;Spezielle Module aus anderen Studiengängen;Herder;;n.V.;Referat;n.V.;Connected Exhibition
+T.n.V.;;BTB18;BTB 09;Technisches Praktikum Elektrotechnik, Informatik, Physik;Becker-Schweitzer;;n.V.;Portfolio;n.V.;
+T.n.V.;;BTB18;BTB 20.11;Vertiefung Netzwerktechnik;Dederichs;;n.V.;Portfolio;n.V.;
+T.n.V.;;BTB18;BTB 20.05;Vertiefung Tonstudiotechnik Digitale Audiosignalverarbeitung;Leckschat;;n.V.;Mündliche Prüfung;n.V.;
+13/07/2022;Mi;DAISY21;BDY 1.1;Einführung in Intelligente Systeme;Stuhlsatz;;4.2.020;90;10:00;
+15/07/2022;Fr;DAISY21;BDY 2.1;Einführung Data Science;Huber;;5.E.001;90;11:00;
+18/07/2022;Mo;DAISY21;BDY 2.2;Datenbanken und Informationssysteme;Rakow;;AM;90;11:00;
+20/07/2022;Mi;DAISY21;BDY 1.2;Ubiquitous Computing;Schwung;;5.E.001;90;10:00;
+29/07/2022;Fr;DAISY21;BDY 2.3;Webtechnologien;Pomp;;AM;90;11:00;
+15/08/2022;Mo;DAISY21;BDY 2.4;Formale Modelle, Algorithmen, Diskrete Mathematik;Feitsch;;AM;90;8:00;
+22/08/2022;Mo;DAISY21;BDY 1.4;Mathematik für Data Science & AI;Feitsch;;4.2.020;90;10:30;
+25/08/2022;Do;DAISY21;BDY 2.5;Gesellschaftliche und soziale Implikationen, Technikfolgenabschätzung;Soßdorf;;AM;90;11:00;
+T.n.V.;;DAISY21;BDY 1.5;Informationsvisualisierung;Fleischmann;;n.V.;Portfolio;n.V.;
+T.n.V.;;DAISY21;BDY 1.3;Programmierung für Data Science und Künstliche Intelligenz;Huber;;n.V.;Projektprüfung;n.V.;
+14/07/2022;Do;MMI18;MMI 02;Theoretische Informatik ;Schmidt;;4.2.020;90;10:00;
+29/07/2022;Fr;MMI18;MMI 11-18;MMI 05.13: Ambient Assisted Living;Wojciechowski;;4.1.006;90;10:00;
+16/08/2022;Di;MMI18;MMI 11-18;MMI 05.22: Mobile Systeme;Lichte;;4.1.006;90;14:00;
+22/08/2022;Mo;MMI18;MMI 01;Advanced Software Engineering;Franz;;AM;90;12:00;
+24/08/2022;Mi;MMI18;MMI 11-18;MMI 05.32: Mathematische Aspekte der Medieninformatik;Dörries;;AM;90;10:00;
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Huldtgren;;n.V.;Projektprüfung;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Huldtgren;;n.V.;Projektprüfung;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Schmidt;;n.V.;Projektprüfung;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Franz;;n.V.;Projektprüfung;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Huber;;n.V.;Projektprüfung;n.V.;TimeWise - Better Benchmarking for Time Series Classification
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Huber;;n.V.;Projektprüfung;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;MMI18;MMI 08;Individuelles Projekt;Huldtgren;;n.V.;Projektprüfung;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Wojciechowski;;n.V.;Projektprüfung;n.V.;thingsAtSmartHome: Face Me II
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;HSDtv - Newsroom
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;Panorama Derendorf
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;Mrart - Mixed Reality for Art Installation
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;AR für Solar Decathlon Europe
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Natur, Maschine, Subjektivitäten
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Bonse;;n.V.;Projektprüfung;n.V.;Catch me if you can
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;LiveMoCap - Live Motion Capturing
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Marmann;;n.V.;Projektprüfung;n.V.;Studio5-Infotag
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Geiger;;n.V.;Projektprüfung;n.V.;Blockchains, Kryptowährungen und NFTs für Web3 und das Metaverse
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Geiger;;n.V.;Projektprüfung;n.V.;Hologramm Pförtner*in
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Geiger;;n.V.;Projektprüfung;n.V.;Klima.Dome - Mixed Reality Pop-up Exhibition
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Geiger;;n.V.;Projektprüfung;n.V.;VR/AR Design meets VR Superpowers - How to Design for Augmented and Virtual Reality
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;"Intra/Extramuros - La Biennale di Venezia 2022 - ""The Milk of Dreams"""
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Steffens;;n.V.;Projektprüfung;n.V.;Akustische Hörexpertise
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Huldtgren;;n.V.;Projektprüfung;n.V.;Weiterentwicklung Methodentoolkit UX4Health
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Huldtgren;;n.V.;Projektprüfung;n.V.;HSDfit 1.1 - Weiterentwicklung einer Fitness-Plattform im Web
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Herder;;n.V.;Projektprüfung;n.V.;Connected Exhibition
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Marmann;;n.V.;Projektprüfung;n.V.;Projekt: Digital Applications
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Dahm;;n.V.;Projektprüfung;n.V.;meinMoodle 2.1
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Schmidt;;n.V.;Projektprüfung;n.V.;Weiterentwicklung von CpVulGuard - einer Browser-Erweiterung zur Erkennung von IT-Sicherheitsschwachstellen in StackOverflow Forum Posts
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Franz;;n.V.;Projektprüfung;n.V.;Eine Progressive Web App auf Kubernetes
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Huber;;n.V.;Projektprüfung;n.V.;TimeWise - Better Benchmarking for Time Series Classification
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Huber;;n.V.;Projektprüfung;n.V.;Artificial Laughter - Detect, collect and generate human laughter
+T.n.V.;;MMI18;MMI 3/4/7;Masterprojekt 1/2/3;Huldtgren;;n.V.;Projektprüfung;n.V.;Deperience - Das Erleben einer Depression
+T.n.V.;;MMI18;MMI 11-18;MMI 05.01: Multimedia-Kommunikation;Dörries;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.02: Usability Engineering und User Experience;Huldtgren;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.03: Advanced User Interfaces;Huldtgren;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.04: Datenanalyse im Web;Rakow;;n.V.;Projektprüfung/Studienarbeitsprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.05: Interaktive Visualierung;Geiger;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.06: Philosophie und Medientechnik;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.07: Intelligente Systeme;Geiger;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.08: Interaktives Virtuelles Studio;Herder;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.09: VR und AR Systeme;Herder;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.10: Realtime Rendering;Herder;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.11: Computer Animation;Mostafawy;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.12: Charakter Produktion;Stampa;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.14: Musikinformatik;Steffens;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.15: Medienkonzeption;Treskunov;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.16: Faktor Mensch in der Informationssicherheit;Schmidt;;n.V.;Portfolio;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.18: Digitale Audiosignalverarbeitung;Leckschat;;n.V.;Mündliche Prüfung;n.V.;Audio Effekte (A-FX)
+T.n.V.;;MMI18;MMI 11-18;MMI 05.20: Verteilte kollaborative Systeme;Rakow;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.20: Verteilte kollaborative Systeme;Rakow;;n.V.;Portfolio;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.21: Wissenschaftliches Arbeiten;Huldtgren;;n.V.;Studienarbeitsprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.23: Mediale Inszenierungen;Geiger;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.26: Digital Storytelling;Loss;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.27: Design Thinking;Huldtgren;;n.V.;Projektprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Wojciechowski;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Klinkenberg;;n.V.;Studienarbeitsprüfung;n.V.;Business Plan Entwicklung
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Kreative Technologien, Konzeption und Entwicklung
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Schmidt;;n.V.;Portfolio;n.V.;Entwicklung sicherer Software
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Schmidt;;n.V.;Portfolio;n.V.;Quantencomputer verstehen - Grundlagen und Anwendungen
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Steffens;;n.V.;Mündliche Prüfung;n.V.;Musikalische Akustik
+T.n.V.;;MMI18;MMI 11-18;MMI 05.28: Spezielle Aspekte multimedialer Systeme;Rakow;;n.V.;Mündliche Prüfung/Projektprüfung/Studienarbeitsprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.29: Spezielle Aspekte virtueller Umgebungen;Mostafawy;;n.V.;Projektprüfung;n.V.;Pencils and Polygons
+T.n.V.;;MMI18;MMI 11-18;MMI 05.29: Spezielle Aspekte virtueller Umgebungen;Klinkenberg;;n.V.;Studienarbeitsprüfung;n.V.;Business Plan Entwicklung
+T.n.V.;;MMI18;MMI 11-18;MMI 05.29: Spezielle Aspekte virtueller Umgebungen;Schwab-Trapp;;n.V.;Projektprüfung;n.V.;Kreative Technologien, Konzeption und Entwicklung
+T.n.V.;;MMI18;MMI 11-18;MMI 05.30: Digital Literacy;Marmann;;n.V.;Portfolio;n.V.;Seminar: Digital Literacy
+T.n.V.;;MMI18;MMI 11-18;MMI 05.33: 360grad Video;Loss;;n.V.;Mündliche Prüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.34: Business Plan Entwicklung;Klinkenberg;;n.V.;Studienarbeitsprüfung;n.V.;
+T.n.V.;;MMI18;MMI 11-18;MMI 05.35: Data Science;Huber;;n.V.;Projektprüfung;n.V.;

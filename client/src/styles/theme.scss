@@ -1,0 +1,11 @@
+// overwrite theme variables
+$primary: rgb(165, 46, 46);
+$secondary: green;
+$dark: #300;
+$light: #fdd;
+$success: #0fa;
+
+// import
+@import '@fortawesome/fontawesome-free';
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-icons';

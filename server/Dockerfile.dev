@@ -1,0 +1,15 @@
+FROM node:lts-alpine
+
+WORKDIR /rest
+
+RUN apk add g++ make py3-pip
+
+COPY package*.json ./
+
+RUN npm ci
+
+COPY . /rest
+
+EXPOSE 3000
+
+CMD ["npm", "run", "start"]

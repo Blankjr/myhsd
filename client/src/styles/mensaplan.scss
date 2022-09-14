@@ -1,0 +1,60 @@
+.mensaplan {
+  .fw-7 {
+    font-size: 0.9em;
+  }
+  .card-title {
+    font-size: 0.9em !important;
+  }
+  .mb-7 {
+    margin-bottom: 7rem !important;
+  }
+  .card {
+    z-index: 1;
+    padding: 0;
+    border-radius: 0.8rem;
+  }
+  img {
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+  }
+  .fs-7 {
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+  .fs-8 {
+    font-size: 0.6rem;
+    font-weight: 100;
+  }
+  .fs-0 {
+    font-size: 5.5rem;
+    font-weight: 900;
+  }
+  .my-hsd-font {
+    font-family: hsdFont, serif;
+    font-size: 0.8em;
+  }
+}
+
+.light .mensaplan {
+  .card {
+    background-color: #ffffff;
+    border: 1px solid var(--text-light);
+  }
+  .fs-0 {
+    color: rgba(0, 0, 0, 0.15);
+  }
+  .text-white {
+    color: var(--text-light) !important;
+  }
+  .text-white-50 {
+    color: rgba(0, 0, 0, 0.4) !important;
+  }
+}
+.dark .mensaplan {
+  .card {
+    background-color: #292929;
+  }
+  .fs-0 {
+    color: rgba(255, 255, 255, 0.15);
+  }
+}

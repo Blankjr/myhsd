@@ -1,0 +1,22 @@
+.my-hsd-logo {
+  font-size: 1.2em;
+  font-family: hsdFont, serif;
+}
+.my-hsd-logo-subtitle {
+  font-size: 0.8em;
+  line-height: 80%;
+  font-family: hsdFont, serif;
+}
+.dark {
+  .my-hsd-logo-subtitle {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+.light {
+  .my-hsd-logo {
+    color: var(--hsd-red);
+  }
+  .my-hsd-logo-subtitle {
+    color: rgba(0, 0, 0, 0.4);
+  }
+}

@@ -1,0 +1,339 @@
+default:
+  tags:
+    - docker
+
+stages:
+  - prepare
+  - test
+  - build
+  - staging
+  - deploy
+
+variables:
+  RULES_CHANGES_PATH: "**/*"
+  CLIENT_CONTAINER_IMAGE: myhsd:${CI_COMMIT_SHORT_SHA}
+  CLIENT_FULL_IMAGE_NAME: $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/$CLIENT_CONTAINER_IMAGE
+  SERVER_CONTAINER_IMAGE: myhsd-server:${CI_COMMIT_SHORT_SHA}
+  SERVER_FULL_IMAGE_NAME: $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/$SERVER_CONTAINER_IMAGE
+
+.base-rules:
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+      changes:
+        - $RULES_CHANGES_PATH
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $DEPLOY_BRANCH
+      when: always
+    - if: $CI_COMMIT_BRANCH == "develop"
+      when: always
+    - if: $CI_COMMIT_REF_NAME =~ /pipeline/ # Run pipeline if branch contains String "pipeline" to enable testing
+      when: manual
+      allow_failure: true
+
+.server:
+  variables:
+    RULES_CHANGES_PATH: "server/**/*"
+
+.client:
+  variables:
+    RULES_CHANGES_PATH: "client/**/*"
+
+.staging-rules:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "develop"
+      when: manual
+    - if: $CI_COMMIT_REF_NAME =~ /pipeline/ # Run pipeline if branch contains String "pipeline" to enable testing
+      when: manual
+
+.deploy-rules:
+  rules:
+    - if: $CI_COMMIT_BRANCH == $DEPLOY_BRANCH
+    - if: $CI_COMMIT_REF_NAME =~ /pipeline/ # Run pipeline if branch contains String "pipeline" to enable testing
+      when: manual
+
+######################################### Prepare
+client_node:
+  stage: prepare
+  extends:
+    - .base-rules
+    - .client
+  image: node:lts-alpine
+  needs: []
+  script:
+    - cd client
+    - npm ci
+  cache:
+    untracked: true
+    key: client-$CI_COMMIT_REF_SLUG
+    paths:
+      - client/node_modules
+
+server_node:
+  stage: prepare
+  extends:
+    - .base-rules
+    - .server
+  image: node:lts-alpine
+  needs: []
+  before_script:
+    - apk add g++ make py3-pip
+  script:
+    - cd server
+    - npm ci
+  cache:
+    untracked: true
+    key: server-$CI_COMMIT_REF_SLUG
+    paths:
+      - server/node_modules
+
+######################################### Test
+client_lint:
+  stage: test
+  extends:
+    - .base-rules
+    - .client
+  image: node:lts-alpine
+  needs: ["client_node"]
+  script:
+    - cd client
+    - npm run lint
+    - npm run style:check
+  cache:
+    untracked: true
+    key: client-$CI_COMMIT_REF_SLUG
+    paths:
+      - client/node_modules
+
+server_lint:
+  stage: test
+  extends:
+    - .base-rules
+    - .server
+  image: node:lts-alpine
+  needs: ["server_node"]
+  before_script:
+    - apk add g++ make py3-pip
+  script:
+    - cd server
+    - npm run lint
+    - npm run style:check
+  cache:
+    untracked: true
+    key: server-$CI_COMMIT_REF_SLUG
+    paths:
+      - server/node_modules
+  
+client_test:
+  stage: test
+  extends:
+    - .base-rules
+    - .client
+  image: node:lts-alpine
+  needs: ["client_node"]
+  script:
+    - cd client
+    - npm run test:ci
+  coverage: '/Lines {8}: \d+\.\d+%/'
+  cache:
+    untracked: true
+    key: client-$CI_COMMIT_REF_SLUG
+    paths:
+      - client/node_modules
+  artifacts:
+    when: always
+    paths:
+      - client/junit.xml
+    reports:
+      junit: client/junit.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: client/coverage/cobertura-coverage.xml
+
+server_test:
+  stage: test
+  extends:
+    - .base-rules
+    - .server
+  image: node:lts-alpine
+  needs: ["server_node"]
+  before_script:
+    - apk add g++ make py3-pip
+  script:
+    - cd server
+    - npm run test:ci
+  coverage: '/Lines {8}: \d+\.\d+%/'
+  cache:
+    untracked: true
+    key: server-$CI_COMMIT_REF_SLUG
+    paths:
+      - server/node_modules
+  artifacts:
+    when: always
+    paths:
+      - server/junit.xml
+    reports:
+      junit: server/junit.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: server/coverage/cobertura-coverage.xml
+
+######################################### Build
+client_build:
+  stage: build
+  extends:
+    - .base-rules
+    - .client
+  image: node:lts-alpine
+  needs: ["client_node"]
+  script:
+    - cd client
+    - CI=$WARNINGS_AS_ERRORS GENERATE_SOURCEMAP=false npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - client/build
+  cache:
+    untracked: true
+    key: client-$CI_COMMIT_REF_SLUG
+    paths:
+      - client/node_modules
+
+server_build:
+  stage: build
+  extends:
+    - .base-rules
+    - .server
+  image: node:lts-alpine
+  needs: ["server_node"]
+  before_script:
+    - apk add g++ make py3-pip
+  script:
+    - cd server
+    - CI=$WARNINGS_AS_ERRORS npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - server/dist
+  cache:
+    untracked: true
+    key: server-$CI_COMMIT_REF_SLUG
+    paths:
+      - server/node_modules  
+
+client_build_docker:
+  stage: build
+  extends:
+    - .deploy-rules
+    - .staging-rules
+    - .client
+  image: docker:latest
+  services:
+    - docker:dind
+  needs: ["client_build"]
+  dependencies:
+    - client_build
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  script:
+    - echo "$DOCKER_PASSWORD" | docker login https://${DOCKER_REGISTRY} -u $DOCKER_USER --password-stdin
+    - cd client
+    - docker build -t $CLIENT_CONTAINER_IMAGE .
+    - echo "$CLIENT_FULL_IMAGE_NAME"
+    - docker tag $CLIENT_CONTAINER_IMAGE $CLIENT_FULL_IMAGE_NAME
+    - docker tag $CLIENT_FULL_IMAGE_NAME $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/myhsd:latest
+    - docker push $CLIENT_FULL_IMAGE_NAME
+    - docker push $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/myhsd:latest
+
+server_build_docker:
+  stage: build
+  extends:
+    - .deploy-rules
+    - .staging-rules
+    - .server
+  image: docker:latest
+  services:
+    - docker:dind
+  needs: ["server_build"]
+  dependencies:
+    - server_build
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  script:
+    - echo "$DOCKER_PASSWORD" | docker login https://${DOCKER_REGISTRY} -u $DOCKER_USER --password-stdin
+    - cd server
+    - docker build -t $SERVER_CONTAINER_IMAGE .
+    - echo "$SERVER_FULL_IMAGE_NAME"
+    - docker tag $SERVER_CONTAINER_IMAGE $SERVER_FULL_IMAGE_NAME
+    - docker tag $SERVER_FULL_IMAGE_NAME $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/myhsd-server:latest
+    - docker push $SERVER_FULL_IMAGE_NAME
+    - docker push $DOCKER_REGISTRY/$REGISTRY_NAMESPACE/myhsd-server:latest
+
+######################################### Staging
+client_staging:
+  stage: staging
+  extends:
+    - .staging-rules
+    - .client
+  image: 
+    name: bitnami/kubectl:latest
+    entrypoint: [""]
+  needs: ["client_build_docker"]
+  environment:
+    name: Staging
+    url: $CLIENT_STAGING_URL
+  script:
+    - kubectl config get-contexts
+    - kubectl config use-context "$KUBE_CONTEXT"
+    - kubectl set image deployment/staging-myhsd staging-react=$CLIENT_FULL_IMAGE_NAME
+
+server_staging:
+  stage: staging
+  extends:
+    - .staging-rules
+    - .server
+  image: 
+    name: bitnami/kubectl:latest
+    entrypoint: [""]
+  needs: ["server_build_docker"]
+  environment:
+    name: Staging
+    url: $API_STAGING_URL
+  script:
+    - kubectl config get-contexts
+    - kubectl config use-context "$KUBE_CONTEXT"
+    - kubectl set image deployment/staging-myhsd-server staging-nest=$SERVER_FULL_IMAGE_NAME
+
+######################################### Deploy
+client_deploy:
+  stage: deploy
+  extends:
+    - .deploy-rules
+    - .client
+  image: 
+    name: bitnami/kubectl:latest
+    entrypoint: [""]
+  needs: ["client_build_docker"]
+  environment:
+    name: Production
+    url: $CLIENT_URL
+  script:
+    - kubectl config get-contexts
+    - kubectl config use-context "$KUBE_CONTEXT"
+    - kubectl set image deployment/myhsd react=$CLIENT_FULL_IMAGE_NAME
+
+server_deploy:
+  stage: deploy
+  extends:
+    - .deploy-rules
+    - .server
+  image: 
+    name: bitnami/kubectl:latest
+    entrypoint: [""]
+  needs: ["server_build_docker"]
+  environment:
+    name: Production
+    url: $API_URL
+  script:
+    - kubectl config get-contexts
+    - kubectl config use-context "$KUBE_CONTEXT"
+    - kubectl set image deployment/myhsd-server nest=$SERVER_FULL_IMAGE_NAME

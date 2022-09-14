@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-dark);
+}
+@font-face {
+  font-family: 'hsdFont';
+  src: url('../public/fonts/HSDSans-Regular.ttf') format('truetype');
+}
+
+html {
+  margin: 0;
+  background-color: var(--background-dark);
+}
+#App {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+.light #wrap {
+  background-color: var(--background-light);
+}
+.dark #wrap {
+  background-color: var(--background-dark);
+}

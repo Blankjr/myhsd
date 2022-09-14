@@ -1,0 +1,38 @@
+version: "3.9"
+
+# For local testing and development only
+# Emulates the pipeline (Building of app in docker container + real deployment container)
+services:
+  build_client:
+    build:
+      context: ./client/
+      dockerfile: Dockerfile.test
+    env_file: ./client/.env.development
+    command: npm run build
+    volumes:
+      - "./client/:/app"
+      - "/app/node_modules"
+  web:
+    depends_on:
+      - "build_client"
+    image: nginx:stable-alpine
+    volumes:
+      - "./client/build:/usr/share/nginx/html"
+    ports:
+      - 3030:80
+  build_api:
+    build:
+      context: ./server/
+      dockerfile: Dockerfile.test
+    command: npm run build
+    volumes:
+      - "./server/:/rest"
+      - "/rest/node_modules"
+  api:
+    depends_on:
+      - "build_api"
+    build:
+      context: ./server/
+      dockerfile: Dockerfile
+    ports:
+      - 5000:3000

@@ -1,0 +1,103 @@
+.startpage-item {
+  .button {
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-bottom: 0.5em;
+    border: 0;
+  }
+
+  .zeitraum {
+    color: var(--hsd-red);
+
+    .box-wrapper {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .box {
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: medium;
+
+      p {
+        margin: 0.8em;
+
+        @media (max-width: 576px) {
+          font-size: x-small;
+        }
+
+        @media (max-width: 768px) {
+          font-size: small;
+        }
+      }
+    }
+
+    .small {
+      font-family: 'Roboto', sans-serif;
+      font-size: small;
+      margin-top: 1em;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .divider-small {
+      border-bottom: 1.5px solid gray;
+      width: 30%;
+      padding-top: 0.4em;
+      margin: 1em auto;
+    }
+  }
+
+  .oeffnungszeiten {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.dark .startpage-item {
+  .card {
+    background-color: var(--background-dark);
+  }
+  .zeitraum {
+    .box-wrapper {
+      color: var(--ghost-white);
+    }
+    .box {
+      border: 2px solid var(--ghost-white);
+    }
+    .small {
+      color: var(--ghost-white);
+    }
+  }
+  .oeffnungszeiten {
+    li {
+      background-color: var(--background-dark);
+      color: var(--ghost-white);
+    }
+  }
+}
+
+.light .startpage-item {
+  .card {
+    background-color: var(--background-light);
+  }
+  .zeitraum {
+    .box-wrapper {
+      color: var(--text-light);
+    }
+    .box {
+      border: 2px solid var(--text-light);
+    }
+    .small {
+      color: var(--text-light);
+    }
+  }
+  .oeffnungszeiten {
+    li {
+      background-color: var(--background-light);
+      color: var(--text-light);
+      border: 0;
+    }
+  }
+}
